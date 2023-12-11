@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;500&display=swap');
+body{
+    background-color: rgb(15 23 42);
+}
+
+h2,p{
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Kalnia', serif;
+}
+a{
+    text-decoration: none;
+    color: gold;
+
+}
+.main{
+    display: flex;
+    margin-left: 270px;
+}
+
+.styleDiv{
+    height: 100px;
+    width: 220px;
+    padding: 50px;
+    margin:  20px;
+    border-radius: 10px;
+    background-color: #4C6793;
+}
+.fontStyleGithub{
+    font-family: 'kalnia', sans-serif;
+    font-size: small;
+    color: darkgray;
+    text-decoration: none;
+}
+.fontStyleLeetcode{
+    font-family: 'kalnia', sans-serif;
+    font-size: small;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+      margin-left: 50px;
+      display: grid;
+    }
+  }
